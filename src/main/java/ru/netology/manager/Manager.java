@@ -5,7 +5,6 @@ import ru.netology.repository.Repository;
 
 public class Manager {
     private Repository repository;
-
     public Manager(Repository repository) {
         this.repository = repository;
     }
