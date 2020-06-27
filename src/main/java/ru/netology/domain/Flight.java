@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 public class Flight implements Comparable<Flight> {
     private int id;
     private int price;
-    private String departureAirport;
-    private String arrivalAirport;
+    private String departure;
+    private String arrival;
     private int flightTime;
 
     @Override
@@ -20,6 +20,6 @@ public class Flight implements Comparable<Flight> {
     }
 
     public boolean matches(String from, String to) {
-        return departureAirport.equalsIgnoreCase(from) & arrivalAirport.equalsIgnoreCase(to);
+        return departure.equalsIgnoreCase(from) & arrival.equalsIgnoreCase(to);
     }
 }
