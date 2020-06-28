@@ -3,7 +3,6 @@ package ru.netology.manager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import ru.netology.domain.Flight;
-//import ru.netology.domain.FlightByTimeAscComparator;
 import ru.netology.domain.FlightByTimeAscComparator;
 import ru.netology.repository.Repository;
 

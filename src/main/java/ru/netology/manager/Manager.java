@@ -2,7 +2,6 @@ package ru.netology.manager;
 
 import ru.netology.domain.Flight;
 import ru.netology.repository.Repository;
-
 import java.util.Arrays;
 import java.util.Comparator;
 
