@@ -3,13 +3,11 @@ package ru.netology.repository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import ru.netology.domain.Flight;
-import ru.netology.manager.Manager;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 
 class RepositoryTest {
     Repository repository = new Repository();
-    Manager manager = new Manager(repository);
     Flight ledMvn = new Flight(1, 3600, "LED", "MVN", 180);
     Flight ledDme = new Flight(2, 6751, "LED", "DME", 90);
     Flight dmeGoj = new Flight(3, 5821, "DME", "GOJ", 75);
